@@ -27,7 +27,7 @@ class HoumerModel(models.Model):
     class Meta:
         """Meta option."""
 
-        asbtract = True
+        abstract = True
 
         get_latest_by = 'created'
         ordering = ['-created', '-modified']
